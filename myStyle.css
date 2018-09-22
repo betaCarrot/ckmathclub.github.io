@@ -1,0 +1,94 @@
+body{
+	display: block;
+	font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    min-width: 1080px;
+    background-color: #F2F2F2;
+}
+
+#wrapper{
+	width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #E2E2E2;
+	box-shadow: 0px 0px 10px 7px #E2E2E2;
+	border-radius: 15px;
+}
+
+#mainheader{
+	font-size: xx-large;
+	text-align: center;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	border-radius: 15px;
+	font-family: 'Electrolize', sans-serif;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background: white;
+}
+
+#year{
+	font-size: xx-large;
+	display: block;
+	background-color: white;
+	margin-bottom: 2px;
+	border-radius: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width:270px;
+}
+
+#maincontent{
+	background-color: white;
+	border-radius: 15px;
+	padding: 8px;
+	clear: both;
+	font-family: 'Tahoma', 'Geneva', sans-serif;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+table, table tr, table th, table td{
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	border-color: #AAAAAA;
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+table{
+	border-radius:15px;
+	background-color:white;
+}
+
+a{
+	text-decoration:none;
+	color:#0F3678;
+}
+
+td.gold{
+	background-color:#FFEE55;
+}
+
+td.silver{
+	background-color:#CCCCCC;
+}
+
+td.bronze{
+	background-color:#B87838;
+}
+
+table td.leftalign{
+	text-align:left;
+}
