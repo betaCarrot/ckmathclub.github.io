@@ -77,6 +77,15 @@ a{
 	color:#0F3678;
 }
 
+a.nounder:hover{
+	color:yellow;
+}
+
+a.small:hover{
+	color:green;
+	text-decoration:underline;
+}
+
 td.gold{
 	background-color:#FFEE55;
 }
