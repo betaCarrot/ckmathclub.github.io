@@ -20,15 +20,16 @@ body{
 }
 
 #mainheader{
+	background-color:white;
 	font-size: xx-large;
 	text-align: center;
 	margin-bottom: 2px;
-	margin-left: 2px;
-	border-radius: 15px;
+	margin-left: 153px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 	font-family: 'Electrolize', sans-serif;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	background: white;
 }
 
 #year{
@@ -42,7 +43,7 @@ body{
 	height: 46px;
 	line-height: 46px;
 	text-align: center;
-	margin-top:20px;
+	margin-top:30px;
 	margin-bottom: 20px;
 	width:270px;
 }
@@ -55,6 +56,41 @@ body{
 	font-family: 'Tahoma', 'Geneva', sans-serif;
 	font-size: 14px;
 	margin-bottom: 8px;
+}
+
+#mainimage {
+    margin-right: 2px;
+    margin-bottom: 8px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    float: left;
+    background-color: white;
+}
+
+a:link, a:visited{
+	background-color:white;
+}
+
+#mainmenu a{
+	float:left;
+    font-family: 'Electrolize', sans-serif;
+    font-size: large;
+    padding-left: 7px;
+    padding-right: 7px;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline-block;
+
+}
+
+.lastchild{
+	border-bottom-right-radius: 15px;
+	padding-left: 7px;
+	padding-right: 10px;
 }
 
 table, table tr, table th, table td{
@@ -77,8 +113,12 @@ a{
 	color:#0F3678;
 }
 
-a.nounder:hover{
-	color:yellow;
+#mainmenu a:link, #mainmenu a:visited{
+	color:black;
+}
+
+#mainmenu a:hover{
+	background-color:#E2E2E2;
 }
 
 a.small:hover{
@@ -100,4 +140,9 @@ td.bronze{
 
 table td.leftalign{
 	text-align:left;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 0px;
 }
