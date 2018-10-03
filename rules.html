@@ -1,152 +1,158 @@
-body{
-	display: block;
-	font-family: Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    min-width: 1080px;
-    background-color: #F2F2F2;
-}
-
-#wrapper{
-	width: 1060px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	background-color: #E2E2E2;
-	box-shadow: 0px 0px 10px 7px #E2E2E2;
-	border-radius: 15px;
-}
-
-#mainheader{
-	background-color:white;
-	font-size: xx-large;
-	text-align: center;
-	margin-bottom: 2px;
-	margin-left: 153px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	font-family: 'Electrolize', sans-serif;
-	padding-top: 4px;
-	padding-bottom: 4px;
-}
-
-#year{
-	font-size: xx-large;
-	display: block;
-	background-color: white;
-	margin-bottom: 2px;
-	border-radius: 15px;
-	margin-left:auto;
-	margin-right:auto;
-	height: 46px;
-	line-height: 46px;
-	text-align: center;
-	margin-top:30px;
-	margin-bottom: 20px;
-	width:270px;
-}
-
-#maincontent{
-	background-color: white;
-	border-radius: 15px;
-	padding: 8px;
-	clear: both;
-	font-family: 'Tahoma', 'Geneva', sans-serif;
-	font-size: 14px;
-	margin-bottom: 8px;
-}
-
-#mainimage {
-    margin-right: 2px;
-    margin-bottom: 8px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    padding-bottom: 1px;
-    padding-right: 1px;
-    float: left;
-    background-color: white;
-}
-
-a:link, a:visited{
-	background-color:white;
-}
-
-#mainmenu a{
-	float:left;
-    font-family: 'Electrolize', sans-serif;
-    font-size: large;
-    padding-left: 7px;
-    padding-right: 7px;
-    vertical-align: middle;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    display: inline-block;
-
-}
-
-.lastchild{
-	border-bottom-right-radius: 15px;
-	padding-left: 7px;
-	padding-right: 10px;
-}
-
-table, table tr, table th, table td{
-	border-style: solid;
-	border-width: 1px;
-	border-collapse: collapse;
-	border-color: #AAAAAA;
-	text-align: center;
-	padding-left: 3px;
-	padding-right: 3px;
-}
-
-table{
-	border-radius:15px;
-	background-color:white;
-}
-
-a{
-	text-decoration:none;
-	color:#0F3678;
-}
-
-#mainmenu a:link, #mainmenu a:visited{
-	color:black;
-}
-
-#mainmenu a:hover{
-	background-color:#E2E2E2;
-}
-
-p a:hover{
-	background-color:#E2E2E2;
-}
-
-a.small:hover{
-	color:green;
-	text-decoration:underline;
-}
-
-td.gold{
-	background-color:#FFEE55;
-}
-
-td.silver{
-	background-color:#CCCCCC;
-}
-
-td.bronze{
-	background-color:#B87838;
-}
-
-table td.leftalign{
-	text-align:left;
-}
-
-h3 {
-    font-weight: bold;
-    margin-bottom: 0px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="CKMO Standings">
+    <meta http-equiv="author" content="Dennis Ren">
+    <link rel="stylesheet" href="myStyle.css">
+	<title>CKMO Rules</title>
+</head>
+<body>
+<div id="wrapper">
+<img id="mainimage" alt="CKMO" src="logo.jpg" width="150" height="90">
+<div id="mainheader">Cranbrook Kingswood Mathematical Olympiad</div>
+<div id="mainmenu">
+<a href="rules.html">Rules</a>
+<a href="index.html" class="lastchild">Standings</a>
+</div>
+<div id="year" style="width:120px"><span style="color:green">Rules</span></div>
+<div id="maincontent">
+<p style="margin-top:0px">Math Club meets every Wednesday C/W period in Math Office.</p>
+<p style="margin-bottom: 0px">If you would like to join math club and appear on the standings, please email chinde@cranbrook.edu or kkatz@cranbrook.edu</p>
+<h3>Abbreviations</h3>
+<p style="margin-bottom:0px"><span>USAMTS: </span><a href="http://www.usamts.org/">USA Mathematical Talent Search</a></p>
+<p style="margin-top: 0px;margin-bottom: 0px"><span>MM: </span><a href="https://www.aretelabs.com/">Math Madness</a></p>
+<p style="margin-top: 0px"><span>MMPC: </span><a href="https://www.nmu.edu/mathandcomputerscience/mi-mathematics-prize-competition">Michigan Math Prize Competition</a></p>
+<h3>Scoring</h3>
+<p>USAMTS: 20 points for each correct solution emailed to chinde@cranbrook.edu.
+5-point bonus for first solution to each problem. 
+10-point bonus for elegant solution.
+</p>
+<p>MMPC (tentative): 5 points for each correct answer</p>
+<p>Contribution:</p>
+<table>
+<tr>
+<th>Event</th>
+<th>Score</th>
+</tr>
+<tr>
+<td>Tutoring review session</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Attending review session</td>
+<td>5</td>
+</tr>
+</table>
+<p>Math Madness and future math club contests:</p>
+<table>
+<tr>
+<th>Rank</th>
+<th>Score</th>
+</tr>
+<tr>
+<td>1</td>
+<td>100</td>
+</tr>
+<tr>
+<td>2</td>
+<td>75</td>
+</tr>
+<tr>
+<td>3</td>
+<td>60</td>
+</tr>
+<tr>
+<td>4</td>
+<td>50</td>
+</tr>
+<tr>
+<td>5</td>
+<td>45</td>
+</tr>
+<tr>
+<td>6</td>
+<td>40</td>
+</tr>
+<tr>
+<td>7</td>
+<td>36</td>
+</tr>
+<tr>
+<td>8</td>
+<td>32</td>
+</tr>
+<tr>
+<td>9</td>
+<td>29</td>
+</tr>
+<tr>
+<td>10</td>
+<td>26</td>
+</tr>
+<tr>
+<td>11</td>
+<td>24</td>
+</tr>
+<tr>
+<td>12</td>
+<td>22</td>
+</tr>
+<tr>
+<td>13</td>
+<td>20</td>
+</tr>
+<tr>
+<td>14</td>
+<td>18</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+</tr>
+<tr>
+<td>15&ltn&lt30</td>
+<td>31-n</td>
+</tr>
+<tr>
+<td>30</td>
+<td>1</td>
+</tr>
+</table>
+<h3 style="margin-bottom: 10px">Medals</h3>
+<table>
+<tr>
+<th>Rank</th>
+<th>Medal</th>
+</tr>
+<tr>
+<td class="gold">1-10</td>
+<td class="gold">Gold</td>
+</tr>
+<tr>
+<td class="silver">11-30</td>
+<td class="silver">Silver</td>
+</tr>
+<tr>
+<td class="bronze">31-60</td>
+<td class="bronze">Bronze</td>
+</tr>
+<tr>
+<td>61+</td>
+<td>Honorable Mention</td>
+</tr>
+</table>
+<h3>Ranking</h3>
+<p>To allow absences, two lowest scores on Wednesday math club contests will be dropped when determining ranking.</p>
+<p>Absolute score = total score over all contests</p>
+<p>Relative score = total score - two lowest scores on Wednesday contests</p>
+<p>When two contestants have the same relative score, their absolute scores will be used as tiebreaker.</p>
+<h3>Note</h3>
+<p>The standings and rules will be continuously updated throughout the year.</p>
+<p>Selection methods of Math Field Day team, book awards, and other awards TBD.</p>
+<p style="margin-bottom: 0px"><i> This database is maintained by Dennis Ren.</i></p>
+<i style="margin-top:0px">If you have a correction, bug report, feature request or any other related information, please contact me at zren19@cranbrook.edu.</i>
+</div>
+</div>
+</body>
+</html>
