@@ -130,6 +130,14 @@ a.small:hover{
 	text-decoration:underline;
 }
 
+td.correct{
+	background-color:#CCFFCC;
+}
+
+td.wrong{
+	background-color:#FFCCCC;
+}
+
 td.gold{
 	background-color:#FFEE55;
 }
