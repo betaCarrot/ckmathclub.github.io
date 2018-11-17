@@ -121,6 +121,10 @@ a{
 	background-color:#E2E2E2;
 }
 
+summary a:hover{
+	background-color:#E2E2E2;
+}
+
 p a:hover{
 	background-color:#E2E2E2;
 }
